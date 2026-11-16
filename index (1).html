@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Social Central helps creators organize social media content, prepare video clips, write captions, and plan publishing workflows.">
+  <title>Social Central | Content Management and Captions</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0d101a; color: #f5f6ff; line-height: 1.6; }
+    a { color: #c2bcff; }
+    header, main, footer { width: min(100% - 40px, 960px); margin-inline: auto; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 28px 0; border-bottom: 1px solid #33384a; }
+    .brand { font-size: 1.2rem; font-weight: 800; text-decoration: none; color: #fff; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    .hero { padding: 78px 0 56px; }
+    .eyebrow { color: #b7a7ff; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-size: clamp(2.1rem, 6vw, 4.4rem); line-height: 1.12; max-width: 800px; margin: 14px 0 22px; }
+    h2 { margin: 0 0 10px; font-size: 1.4rem; }
+    .intro { font-size: 1.16rem; color: #ccd1e4; max-width: 690px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 16px; margin: 16px 0 64px; }
+    .card { padding: 26px; background: #181c2b; border: 1px solid #32394f; border-radius: 16px; }
+    .card p { color: #cbd0df; margin-bottom: 0; }
+    .policy { padding: 28px; background: #1b2135; border: 1px solid #495070; border-radius: 16px; margin: 0 0 70px; }
+    .links { display: flex; flex-wrap: wrap; gap: 20px; }
+    footer { border-top: 1px solid #33384a; padding: 24px 0 48px; color: #b7bfd2; font-size: .9rem; }
+    @media (max-width: 560px) { header { align-items: flex-start; flex-direction: column; } .hero { padding-top: 52px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Social Central</a>
+    <nav aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Social media content workflow</p>
+      <h1>Manage your social content and make captions in one place.</h1>
+      <p class="intro">Social Central is a content workflow application for organizing short-form video content, preparing captions, and managing publishing plans for social platforms.</p>
+    </section>
+    <section id="features" aria-label="Features">
+      <div class="cards">
+        <article class="card"><h2>Organize content</h2><p>Keep clip ideas, drafts, and planned posts in a central workflow.</p></article>
+        <article class="card"><h2>Prepare captions</h2><p>Draft and refine captions for short-form social posts.</p></article>
+        <article class="card"><h2>Plan publishing</h2><p>Review content and organize it before posting to connected social platforms.</p></article>
+      </div>
+    </section>
+    <section class="policy" aria-labelledby="legal-heading">
+      <h2 id="legal-heading">Legal information</h2>
+      <p>Review our policies to learn about this application and how it handles your information.</p>
+      <div class="links">
+        <a href="privacy.html">Read the Privacy Policy</a>
+        <a href="terms.html">Read the Terms of Service</a>
+      </div>
+    </section>
+  </main>
+  <footer>Social Central · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></footer>
+</body>
+</html>
